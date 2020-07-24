@@ -1,9 +1,13 @@
 import React from 'react'
 
 function Header(){
+
+const firstName='Rupak'
+const lastName='Chaulagain'
+
 return (
-<footer>
-<h3>Welcome to this Page</h3>
+<header>
+<h3>Welcome to this Page {firstName+" "+lastName}</h3>
     <nav className="navbar">
        <ul>
          <li>Home</li>
@@ -12,7 +16,7 @@ return (
             <li>Setting</li>
        </ul>
     </nav>
-</footer>
+</header>
 )
 
 }

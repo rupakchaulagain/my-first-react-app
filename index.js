@@ -6,5 +6,4 @@ import App from './components/App'
 // import Todo from './components/Todo'
 
 
-
 render(<App />, document.getElementById('root'));
