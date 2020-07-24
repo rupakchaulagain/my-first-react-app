@@ -4,7 +4,7 @@ function Header(){
 return (
 <footer>
 <h3>Welcome to this Page</h3>
-    <nav>
+    <nav className="navbar">
        <ul>
          <li>Home</li>
           <li>Contact</li>
